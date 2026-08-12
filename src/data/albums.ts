@@ -1,0 +1,48 @@
+import type { Album } from '../types';
+
+export const mockAlbums: Album[] = [
+  {
+    id: 'alb-1',
+    title: 'Neon Soundscapes',
+    artist: 'VEXO Collective',
+    year: 2026,
+    coverUrl: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=800&q=80',
+    genre: 'Cybertronic / Synth',
+    spotifyUrl: 'https://spotify.com',
+    youtubeUrl: 'https://youtube.com',
+    trackCount: 12,
+  },
+  {
+    id: 'alb-2',
+    title: 'Crimson Midnight',
+    artist: 'Kaelen Vance',
+    year: 2026,
+    coverUrl: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=800&q=80',
+    genre: 'Dark Electro R&B',
+    spotifyUrl: 'https://spotify.com',
+    youtubeUrl: 'https://youtube.com',
+    trackCount: 9,
+  },
+  {
+    id: 'alb-3',
+    title: 'Velvet Horizon',
+    artist: 'Aria Thorne',
+    year: 2025,
+    coverUrl: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=800&q=80',
+    genre: 'Ambient Soul',
+    spotifyUrl: 'https://spotify.com',
+    youtubeUrl: 'https://youtube.com',
+    trackCount: 10,
+  },
+  {
+    id: 'alb-4',
+    title: 'Pulse of Jaipur',
+    artist: 'VEXO All-Stars',
+    year: 2025,
+    coverUrl: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=800&q=80',
+    genre: 'Fusion Electronic',
+    spotifyUrl: 'https://spotify.com',
+    youtubeUrl: 'https://youtube.com',
+    trackCount: 14,
+  },
+];
