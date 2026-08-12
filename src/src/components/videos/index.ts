@@ -1,2 +1,0 @@
-// Videos components exports
-export {};
